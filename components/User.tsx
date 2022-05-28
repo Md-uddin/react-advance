@@ -21,7 +21,7 @@ const User = (props: Props) => {
   }
   console.log(user)
   return (
-    <div>
+    <div> 
       {isFetching ? <span style={{ position: 'absolute', top: '1rem', right: '1rem' }}>
         loading or fetching.. </span>:<span style={{ position: 'absolute', top: '1rem', right: '1rem' }}>
         loaded </span> }

@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Checkout from '../components/Checkout'
 import CreateUser from '../components/CreateUser'
 import User from '../components/User'
 import styles from '../styles/Home.module.css'
@@ -15,8 +16,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <User />
-        <CreateUser/>
+        {/* <User />
+        <CreateUser/> */}
+        <Checkout/>
       </main>
 
   
